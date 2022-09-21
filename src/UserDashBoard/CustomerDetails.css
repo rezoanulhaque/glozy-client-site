@@ -1,0 +1,37 @@
+.table-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.table-content{
+    flex:25%;
+}
+.user-details p{
+    margin-left: 5%;
+}
+.user-details button{
+    margin-left: 25%;
+}
+.update-your-info input{
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+    padding: 5px;
+}
+.update-your-info{
+    width: 350px;
+    margin: auto;
+}
+.update-your-info input[type=submit]{
+    background-color: lightseagreen;
+    border: 1px solid lightseagreen;
+    margin-top: 10px;
+    color:#fff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px){
+    .table-display{
+        display: none;
+    }
+}

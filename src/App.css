@@ -1,0 +1,57 @@
+/*Shared Component*/
+/*Shared Component : header*/
+.header-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.header-component .header-component-left {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+}
+
+.header-component .header-component-right {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  text-align: right;
+}
+
+.header-component .header-component-right p {
+  display: inline-block;
+}
+
+.header-component .header-component-right .link-cart .shoppingcart-icon {
+  color: #0E6CAA;
+}
+
+.link-home img {
+  width: 100px;
+}
+
+/*Shared Component : header*/
+/*Shared Component : search*/
+.search-input {
+  width: 500px !important;
+  margin-left: 30px !important;
+  border: 1px solid #19A8CC !important;
+}
+
+.search-button {
+  background-color: #19A8CC !important;
+  color: bisque;
+}
+
+/*Shared Component : search*/
+/*Shared Component*/
+/*# sourceMappingURL=App.css.map */
